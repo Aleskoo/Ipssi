@@ -1,0 +1,1 @@
+Supprimez les fichiers sensibles du webroot et restreignez l’accès au dossier via la configuration du serveur (deny/Require) et permissions root (600)
