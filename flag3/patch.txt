@@ -1,0 +1,1 @@
+Désinfection/Encodage de Sortie: Appliquer un encodage contextuel JavaScript (json_encode ou équivalent) à toutes les entrées utilisateur destinées à être insérées dans un bloc <script>, afin que les caractères spéciaux (guillemets, apostrophes) soient traités comme du texte pur et non comme du code exécutable.
