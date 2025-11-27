@@ -1,1 +1,1 @@
-the flag is : 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
+Requêtes Préparées : Utiliser des requêtes préparées avec des paramètres pour que l'entrée utilisateur soit toujours traitée comme une donnée et jamais comme du code SQL exécutable.
