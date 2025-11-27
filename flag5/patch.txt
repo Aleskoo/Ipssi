@@ -1,0 +1,3 @@
+Validation de Contenu: Ne jamais se fier aux en-têtes MIME du client (image/jpeg); inspecter la signature binaire (magic bytes) du fichier téléchargé pour confirmer son type réel (ex: JPEG) et rejeter tout fichier exécutable.
+
+Renommage et Stockage Sécurisé: Après validation, renommer aléatoirement le fichier et le stocker dans un répertoire hors du document root du serveur web, interdisant toute interprétation ultérieure de code.

