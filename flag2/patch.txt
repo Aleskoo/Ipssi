@@ -1,0 +1,1 @@
+Validation d'Entrée: Filtrer strictement la variable  en autorisant uniquement les caractères de noms de fichiers légitimes et en interdisant le caractère deux-points (:) pour bloquer les schémas d'URI malveillants comme data:.
